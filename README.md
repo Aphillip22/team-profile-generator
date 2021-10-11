@@ -17,6 +17,12 @@
   -OOP
   -TDD
   -Node.js
+  -inquirer
+  -jest
   # Contact
   For any questions or to discuss this project further, please reach out at amber.rain.phillips@gmail.com or Aphillip22
   # Links
+  Walkthrough:
+  https://watch.screencastify.com/v/ZHRs5rbN1md1Zfbzk6s0
+  Github Repo:
+  https://github.com/Aphillip22/team-profile-generator.git
