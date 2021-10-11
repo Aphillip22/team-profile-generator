@@ -108,7 +108,7 @@ const questions = [
             let id = response.id;
             let email = response.email;
             let role = response.role;
-            let officeNumber;
+            let office;
             let github;
             let school;
 
@@ -122,8 +122,8 @@ const questions = [
             }
             else if (role === "Manager") {
                 inquirer.prompt(managerQ).then((response) =>{
-                        officeNumber = response.officeNumber;
-                        let employee = new Manager(name, id, email, officeNumber);
+                        office = response.office;
+                        let employee = new Manager(name, id, email, office);
                         employeesArr.push(employee);
                         addEmployee(employeesArr);
                     });
