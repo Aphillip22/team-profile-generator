@@ -1,4 +1,4 @@
-//reviewed github.com/malloryfaria to help with write file function, after reviewing also added the paths to create and join dist to index.html. This was not something I had thought of previously. 
+//reviewed github.com/malloryfaria to help with write file function, after reviewing also added the paths to create and join dist to index.html. Lastly, compared this github to my generateHTML js and updated my code.
 //worked in study group with Cameron Charlesworth & Gerrit Elenbaas, code may be similar
 // import required packages
 const inquirer = require("inquirer");
@@ -45,10 +45,10 @@ const questions = [
     managerQ = [
         {
             type: "input",
-            name: "officeNumber",
+            name: "office",
             message: "What is this manager's office number?",
-            validate: officeNumber => {
-                if (officeNumber) {
+            validate: office => {
+                if (office) {
                   return true;
                 } else {
                   console.log("Please enter an office number!");
