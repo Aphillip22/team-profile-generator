@@ -1,5 +1,5 @@
 //reviewed github.com/malloryfaria to help with write file function, after reviewing also added the paths to create and join dist to index.html. This was not something I had thought of previously. 
-
+//worked in study group with Cameron Charlesworth & Gerrit Elenbaas, code may be similar
 // import required packages
 const inquirer = require("inquirer");
 const fs = require("fs");
